@@ -8,7 +8,7 @@ OnUnitActiveSec=10
 AccuracySec=1ms
 
 [Service]
-ExecStart=/bin/bash -l -c 'su morphs -c "/usr/local/bin/mediaboxUSBButtonWatcher"'
+ExecStart=/bin/bash -l -c 'su morphs -c "/usr/local/bin/mediaboxUSBButtonPoller"'
 
 [Install]
 WantedBy=multi-user.target
